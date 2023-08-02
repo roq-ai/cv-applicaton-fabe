@@ -1,0 +1,862 @@
+[
+  {
+    "cv_template": [
+      {
+        "id": "d83c5bb9-a973-47b9-9db7-7f6de963ea07",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-02T08:11:43.409Z",
+        "updated_at": "2023-08-02T01:38:04.266Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "5a8c27c0-32ef-425c-b511-cb8f91ae3c71",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-02T05:41:58.336Z",
+        "updated_at": "2023-08-01T14:58:33.667Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "adfe8f97-1bc8-4cb5-afb9-b25c795a3688",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-01T20:47:55.500Z",
+        "updated_at": "2023-08-01T20:38:07.524Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "e865582c-f32d-48c0-aa17-baee7bfb755f",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-01T12:30:34.275Z",
+        "updated_at": "2023-08-01T22:34:11.171Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "d594c5ac-ec94-4ddc-adf6-21984cfba527",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-02T10:31:40.913Z",
+        "updated_at": "2023-08-02T07:31:23.407Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "16acd8e8-75c2-4a4f-be4a-8312f035c6d3",
+        "role_name": "Administrator",
+        "created_at": "2023-08-02T02:19:46.380Z",
+        "updated_at": "2023-08-02T11:49:56.750Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "e865582c-f32d-48c0-aa17-baee7bfb755f"
+      },
+      {
+        "id": "e8171df4-d9a6-4321-9c22-a740e4214a0e",
+        "role_name": "Manager",
+        "created_at": "2023-08-01T22:33:09.299Z",
+        "updated_at": "2023-08-02T02:36:02.515Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "d83c5bb9-a973-47b9-9db7-7f6de963ea07"
+      },
+      {
+        "id": "4e5854ff-61c3-45b5-8c29-eef5c17fc3ab",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-02T03:05:24.877Z",
+        "updated_at": "2023-08-02T03:58:21.941Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "e865582c-f32d-48c0-aa17-baee7bfb755f"
+      },
+      {
+        "id": "a7ec67ff-4812-4a47-a3f0-b9ef0ca7a046",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-02T02:33:02.315Z",
+        "updated_at": "2023-08-02T03:44:10.742Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "d83c5bb9-a973-47b9-9db7-7f6de963ea07"
+      },
+      {
+        "id": "d2e40d07-6ff4-4d2f-a132-10597729503f",
+        "role_name": "Analyst",
+        "created_at": "2023-08-01T18:30:29.293Z",
+        "updated_at": "2023-08-01T13:19:24.548Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "d594c5ac-ec94-4ddc-adf6-21984cfba527"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "987f528a-7fac-453d-8aeb-97c15ca3d5d3",
+        "name": "Professional",
+        "content": "Sample content for CV template",
+        "created_at": "2023-08-01T23:53:09.407Z",
+        "updated_at": "2023-08-02T00:10:29.346Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "6a274bbe-b0f4-456a-b756-1493bbac041d",
+        "name": "Creative",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-08-01T15:48:23.199Z",
+        "updated_at": "2023-08-02T11:41:13.213Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "5576f0fe-bfa6-43e2-937a-fea64dd55d18",
+        "name": "Modern",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-08-02T04:14:59.635Z",
+        "updated_at": "2023-08-01T18:47:33.552Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "22697db4-4a19-4cca-a1d6-68ed1238cbf9",
+        "name": "Executive",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-08-02T04:00:55.849Z",
+        "updated_at": "2023-08-01T21:47:47.794Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "ebcfaa9c-93f6-4396-906d-c77308fd6b08",
+        "name": "Minimalist",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-08-01T23:36:50.627Z",
+        "updated_at": "2023-08-01T14:50:59.736Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "fd1f24d8-59d7-4c34-b419-6d754e7eee92",
+        "role_name": "Administrator",
+        "created_at": "2023-08-01T15:15:03.357Z",
+        "updated_at": "2023-08-02T10:12:30.148Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "22697db4-4a19-4cca-a1d6-68ed1238cbf9"
+      },
+      {
+        "id": "5e160c7a-05e4-4a17-8cd8-907b6d8bc5ee",
+        "role_name": "Manager",
+        "created_at": "2023-08-01T19:52:29.482Z",
+        "updated_at": "2023-08-02T06:18:01.718Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "22697db4-4a19-4cca-a1d6-68ed1238cbf9"
+      },
+      {
+        "id": "a501a174-057d-48ac-92bd-1d23435567ec",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T14:10:45.328Z",
+        "updated_at": "2023-08-01T22:38:58.206Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "987f528a-7fac-453d-8aeb-97c15ca3d5d3"
+      },
+      {
+        "id": "043f586e-a469-40a9-9342-40ed7d2c475e",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-01T13:24:36.428Z",
+        "updated_at": "2023-08-01T19:29:53.292Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "ebcfaa9c-93f6-4396-906d-c77308fd6b08"
+      },
+      {
+        "id": "034c5104-304d-4e51-bf44-89f0743b61a2",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T01:57:08.442Z",
+        "updated_at": "2023-08-01T19:32:48.904Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "6a274bbe-b0f4-456a-b756-1493bbac041d"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "1f050262-c358-4398-aa1f-0d5877059452",
+        "name": "Professional",
+        "content": "Crafted to impress recruiters",
+        "created_at": "2023-08-01T22:03:38.635Z",
+        "updated_at": "2023-08-01T22:35:00.283Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "8c8cbc1b-34dd-461e-87ab-84f4206b1f8b",
+        "name": "Creative",
+        "content": "Showcase your skills and achievements",
+        "created_at": "2023-08-02T08:51:49.933Z",
+        "updated_at": "2023-08-02T11:38:16.093Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "954a9058-e577-4c28-97cc-715c86789416",
+        "name": "Modern",
+        "content": "Stand out from the crowd",
+        "created_at": "2023-08-02T06:43:28.108Z",
+        "updated_at": "2023-08-01T19:13:01.805Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "50a429bb-6ac6-4695-8989-0d909d07ad73",
+        "name": "Executive",
+        "content": "Perfect for any industry",
+        "created_at": "2023-08-01T23:04:25.635Z",
+        "updated_at": "2023-08-02T02:30:53.585Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "8d8a07fe-c736-429b-ad16-d3a2c178a9e1",
+        "name": "Minimalist",
+        "content": "Clean and professional design",
+        "created_at": "2023-08-01T20:53:45.511Z",
+        "updated_at": "2023-08-02T02:07:55.875Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "93e396d7-55d9-488b-833d-2bd9c1b714c7",
+        "role_name": "Administrator",
+        "created_at": "2023-08-02T08:06:30.767Z",
+        "updated_at": "2023-08-01T22:14:05.937Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "1f050262-c358-4398-aa1f-0d5877059452"
+      },
+      {
+        "id": "bc0c5268-f5f3-4efb-b64a-950bb738f120",
+        "role_name": "Manager",
+        "created_at": "2023-08-02T03:10:07.387Z",
+        "updated_at": "2023-08-02T07:56:57.259Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "50a429bb-6ac6-4695-8989-0d909d07ad73"
+      },
+      {
+        "id": "9f2256a2-4a5f-49f6-be16-07c9b86eab11",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T20:53:08.191Z",
+        "updated_at": "2023-08-02T11:14:59.461Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "8d8a07fe-c736-429b-ad16-d3a2c178a9e1"
+      },
+      {
+        "id": "c3ba84f3-0b21-4b20-bb9c-fb93141e54e7",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-02T09:30:47.860Z",
+        "updated_at": "2023-08-02T11:47:34.756Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "8d8a07fe-c736-429b-ad16-d3a2c178a9e1"
+      },
+      {
+        "id": "a54e090f-31a6-47b7-a104-5178e37bb8fd",
+        "role_name": "Analyst",
+        "created_at": "2023-08-01T19:43:45.903Z",
+        "updated_at": "2023-08-01T13:54:11.131Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "50a429bb-6ac6-4695-8989-0d909d07ad73"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "9a57c4c7-bb00-4b24-8a7b-c56d4122dd73",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-01T20:00:36.006Z",
+        "updated_at": "2023-08-02T11:49:43.487Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "76ca6637-0e02-4a4d-8739-64d3feec4238",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-01T13:55:23.193Z",
+        "updated_at": "2023-08-02T10:57:27.629Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "00e51b3d-b527-4dfb-a038-a3c20933480e",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-02T08:34:13.679Z",
+        "updated_at": "2023-08-01T18:24:02.766Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "35439046-32eb-40db-b6fa-2c5fe6060471",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-01T19:18:38.733Z",
+        "updated_at": "2023-08-02T06:04:53.207Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "9b3ccd36-0af7-48ce-a3af-b450e912050b",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-01T22:17:28.492Z",
+        "updated_at": "2023-08-02T03:09:45.018Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "23270578-6509-4844-8eb0-c64f5caf7236",
+        "role_name": "Administrator",
+        "created_at": "2023-08-02T09:03:55.521Z",
+        "updated_at": "2023-08-01T12:46:20.526Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "00e51b3d-b527-4dfb-a038-a3c20933480e"
+      },
+      {
+        "id": "98f5d1c5-6ed5-4457-a64d-e06505d32227",
+        "role_name": "Manager",
+        "created_at": "2023-08-01T12:51:06.142Z",
+        "updated_at": "2023-08-01T15:00:16.490Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "76ca6637-0e02-4a4d-8739-64d3feec4238"
+      },
+      {
+        "id": "f5dc27e6-0e53-4ea5-85a0-9efa428a15ee",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-02T02:30:58.777Z",
+        "updated_at": "2023-08-01T20:23:32.626Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "35439046-32eb-40db-b6fa-2c5fe6060471"
+      },
+      {
+        "id": "279bf4e7-4391-4304-8b75-88a391758951",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-01T17:07:45.126Z",
+        "updated_at": "2023-08-01T12:35:50.667Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9b3ccd36-0af7-48ce-a3af-b450e912050b"
+      },
+      {
+        "id": "c90f4212-6b47-452b-a98e-2742d3e735be",
+        "role_name": "Analyst",
+        "created_at": "2023-08-01T15:25:17.118Z",
+        "updated_at": "2023-08-01T17:36:04.487Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9a57c4c7-bb00-4b24-8a7b-c56d4122dd73"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "098f9628-cd81-4d60-93b7-e4feb95a0390",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-02T11:27:28.097Z",
+        "updated_at": "2023-08-02T08:05:06.454Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "74d292d6-53cb-45ea-9bca-2ac307e280e9",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-01T16:53:12.503Z",
+        "updated_at": "2023-08-02T06:41:20.344Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "19f279e3-0ef8-4fa7-9044-5c981d4bd719",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-01T21:39:28.823Z",
+        "updated_at": "2023-08-01T15:33:29.575Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "d24f70cf-eb26-4de5-8f17-cb256351682a",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-02T09:34:50.576Z",
+        "updated_at": "2023-08-02T06:57:30.023Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "e4ae9688-70d7-4dfe-97ac-3771a78c9a1a",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-01T14:31:48.964Z",
+        "updated_at": "2023-08-01T17:29:32.041Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "56884924-ebbb-4158-845d-7dec42d5c401",
+        "role_name": "Administrator",
+        "created_at": "2023-08-01T18:19:39.223Z",
+        "updated_at": "2023-08-02T12:16:22.508Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "e4ae9688-70d7-4dfe-97ac-3771a78c9a1a"
+      },
+      {
+        "id": "4f09c52d-ae71-4327-abce-db4a8175e4e1",
+        "role_name": "Manager",
+        "created_at": "2023-08-02T01:34:25.598Z",
+        "updated_at": "2023-08-02T08:23:59.871Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "74d292d6-53cb-45ea-9bca-2ac307e280e9"
+      },
+      {
+        "id": "fc15f2d2-8d87-43cf-beab-d4dab2d3fe88",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T22:14:11.409Z",
+        "updated_at": "2023-08-01T15:09:34.794Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "d24f70cf-eb26-4de5-8f17-cb256351682a"
+      },
+      {
+        "id": "c55651d9-29c0-4e8e-8e73-9e0f0e0a9dbf",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-02T04:19:40.862Z",
+        "updated_at": "2023-08-02T10:51:51.900Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "098f9628-cd81-4d60-93b7-e4feb95a0390"
+      },
+      {
+        "id": "fed63c99-3dee-48fb-bc26-eedd6ba92980",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T11:35:46.356Z",
+        "updated_at": "2023-08-01T13:33:02.124Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "19f279e3-0ef8-4fa7-9044-5c981d4bd719"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "98d0e567-6c83-4466-87e4-6b64a8d939ca",
+        "name": "Professional",
+        "content": "Sample content for CV template",
+        "created_at": "2023-08-01T19:54:11.118Z",
+        "updated_at": "2023-08-02T01:44:35.798Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "548a16b5-c68f-4036-b821-f2ba566b7525",
+        "name": "Creative",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-08-02T08:59:16.305Z",
+        "updated_at": "2023-08-02T08:25:02.042Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "61eb1d33-8fbd-440d-a9f2-5fa2fc4423c8",
+        "name": "Modern",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-08-02T02:50:00.551Z",
+        "updated_at": "2023-08-01T21:32:10.659Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "463f725f-81a7-4b48-a1b7-d30124c354d6",
+        "name": "Executive",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-08-01T13:29:27.904Z",
+        "updated_at": "2023-08-01T17:47:33.643Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "1f581af3-2d77-421e-8a32-26df04d071c0",
+        "name": "Minimalist",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-08-01T17:56:59.908Z",
+        "updated_at": "2023-08-01T18:18:48.678Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "17fdb09f-9c44-4f7e-9461-6ca4fef1b3f1",
+        "role_name": "Administrator",
+        "created_at": "2023-08-01T14:38:08.743Z",
+        "updated_at": "2023-08-02T12:01:57.590Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "1f581af3-2d77-421e-8a32-26df04d071c0"
+      },
+      {
+        "id": "60963f9d-dc9a-4cc5-bbd2-2a834c08471e",
+        "role_name": "Manager",
+        "created_at": "2023-08-02T03:19:20.184Z",
+        "updated_at": "2023-08-01T22:49:27.644Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "61eb1d33-8fbd-440d-a9f2-5fa2fc4423c8"
+      },
+      {
+        "id": "1a941e94-26a6-47c7-be59-1cc0541ba012",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T19:27:31.429Z",
+        "updated_at": "2023-08-01T13:37:48.977Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "61eb1d33-8fbd-440d-a9f2-5fa2fc4423c8"
+      },
+      {
+        "id": "396310e1-37a3-4e80-b79b-880d498d47ce",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-02T06:49:45.053Z",
+        "updated_at": "2023-08-01T21:33:03.738Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "463f725f-81a7-4b48-a1b7-d30124c354d6"
+      },
+      {
+        "id": "34a07203-b1b1-4681-876f-19b6a5956502",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T01:35:30.471Z",
+        "updated_at": "2023-08-01T13:22:16.852Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "463f725f-81a7-4b48-a1b7-d30124c354d6"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "ba13e88b-f10a-45be-9aa9-8a886b874b9b",
+        "name": "Professional",
+        "content": "Crafted to impress recruiters",
+        "created_at": "2023-08-02T02:26:32.793Z",
+        "updated_at": "2023-08-01T15:36:44.485Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "7d78f948-b9e8-430a-bf0f-557450bd3907",
+        "name": "Creative",
+        "content": "Showcase your skills and achievements",
+        "created_at": "2023-08-01T14:00:22.706Z",
+        "updated_at": "2023-08-01T18:51:48.513Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "e5272ab0-73a1-4a1e-96ce-cdc151ce4f9b",
+        "name": "Modern",
+        "content": "Stand out from the crowd",
+        "created_at": "2023-08-02T00:53:20.150Z",
+        "updated_at": "2023-08-02T11:12:01.419Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "0955d3ed-327b-4a33-b454-414307899041",
+        "name": "Executive",
+        "content": "Perfect for any industry",
+        "created_at": "2023-08-01T16:10:14.037Z",
+        "updated_at": "2023-08-02T07:21:09.582Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "27e43e61-b316-4ef2-a6c2-d49f602ab5b3",
+        "name": "Minimalist",
+        "content": "Clean and professional design",
+        "created_at": "2023-08-02T00:26:42.642Z",
+        "updated_at": "2023-08-02T10:40:36.691Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "9519f84e-9d94-4276-8d98-e3097882108e",
+        "role_name": "Administrator",
+        "created_at": "2023-08-02T09:27:44.544Z",
+        "updated_at": "2023-08-02T04:50:29.211Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "ba13e88b-f10a-45be-9aa9-8a886b874b9b"
+      },
+      {
+        "id": "4329162f-4209-4b63-8db2-f821b8ec9912",
+        "role_name": "Manager",
+        "created_at": "2023-08-01T14:04:28.021Z",
+        "updated_at": "2023-08-02T07:43:43.067Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "0955d3ed-327b-4a33-b454-414307899041"
+      },
+      {
+        "id": "1e8ee90a-1bb1-494b-a265-6c7585d414ed",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T12:25:49.921Z",
+        "updated_at": "2023-08-01T18:33:55.754Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "ba13e88b-f10a-45be-9aa9-8a886b874b9b"
+      },
+      {
+        "id": "f0ad8fcb-a1cc-4b5a-be9e-e5fdfe3e56c0",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-01T14:32:18.998Z",
+        "updated_at": "2023-08-02T04:21:25.634Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "27e43e61-b316-4ef2-a6c2-d49f602ab5b3"
+      },
+      {
+        "id": "8358618c-23eb-4d88-9700-de1153ed83f2",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T09:07:53.259Z",
+        "updated_at": "2023-08-02T00:10:16.214Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "ba13e88b-f10a-45be-9aa9-8a886b874b9b"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "237b3df1-9df3-43b4-bf11-6ad81f4bf191",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-01T17:11:56.957Z",
+        "updated_at": "2023-08-01T13:30:02.999Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "5ebd59d7-afee-410e-8936-8242331b5a5a",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-02T02:47:18.387Z",
+        "updated_at": "2023-08-01T18:44:08.813Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c0c0aa-d7dd-449f-9310-40ad210cd9f8",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-01T17:22:55.498Z",
+        "updated_at": "2023-08-02T07:14:50.814Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "0c56b7cf-4092-44a9-9a2c-e4b8f878377a",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-02T08:24:24.380Z",
+        "updated_at": "2023-08-02T01:13:13.199Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a33464-b462-4a51-ad2f-81f997c80cad",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-02T10:32:41.932Z",
+        "updated_at": "2023-08-01T23:07:08.116Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "e93273ac-9288-4d37-bbd3-163d6039fde9",
+        "role_name": "Administrator",
+        "created_at": "2023-08-01T13:16:11.943Z",
+        "updated_at": "2023-08-02T06:19:37.176Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "0c56b7cf-4092-44a9-9a2c-e4b8f878377a"
+      },
+      {
+        "id": "01560124-b6a6-47a0-bba5-14d225d2da42",
+        "role_name": "Manager",
+        "created_at": "2023-08-02T10:05:20.071Z",
+        "updated_at": "2023-08-01T16:57:50.518Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "b5a33464-b462-4a51-ad2f-81f997c80cad"
+      },
+      {
+        "id": "6a22ee4d-7a97-4f96-bae8-c8254aa44e26",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T22:50:42.598Z",
+        "updated_at": "2023-08-01T18:00:51.749Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "f2c0c0aa-d7dd-449f-9310-40ad210cd9f8"
+      },
+      {
+        "id": "775cacd0-08b9-45f3-8cae-c276c8836b5a",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-01T13:45:05.652Z",
+        "updated_at": "2023-08-02T09:24:48.543Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "f2c0c0aa-d7dd-449f-9310-40ad210cd9f8"
+      },
+      {
+        "id": "2a76b3b0-86eb-43a7-a3a9-195ad553b516",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T02:49:53.426Z",
+        "updated_at": "2023-08-02T02:23:04.530Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "f2c0c0aa-d7dd-449f-9310-40ad210cd9f8"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "49afeb49-8928-40aa-8179-8e4d164a3735",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-02T05:18:19.365Z",
+        "updated_at": "2023-08-01T12:42:52.608Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "071a38a0-9be3-4009-8f54-4f7538615438",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-01T18:26:47.220Z",
+        "updated_at": "2023-08-02T04:29:28.135Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "6211d8c6-dd79-46b9-871d-0054885c36b0",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-01T13:59:14.368Z",
+        "updated_at": "2023-08-02T05:35:57.367Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "47fc09e4-126f-4d1a-9644-3290e061b97e",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-01T17:56:45.271Z",
+        "updated_at": "2023-08-01T21:10:27.900Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "f1fa04e3-6f4f-4242-a095-b3bfef2ef574",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-02T12:13:19.183Z",
+        "updated_at": "2023-08-02T00:17:30.090Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "3b2ed3ba-dd46-4aea-b942-61b16d0ae094",
+        "role_name": "Administrator",
+        "created_at": "2023-08-02T01:02:16.045Z",
+        "updated_at": "2023-08-01T13:29:04.059Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "49afeb49-8928-40aa-8179-8e4d164a3735"
+      },
+      {
+        "id": "3936e4d9-ba55-4355-a2c7-b2e9cae33c09",
+        "role_name": "Manager",
+        "created_at": "2023-08-02T09:01:34.825Z",
+        "updated_at": "2023-08-01T13:12:06.375Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "f1fa04e3-6f4f-4242-a095-b3bfef2ef574"
+      },
+      {
+        "id": "d7efee95-0262-4451-8b3d-248291b98c23",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-01T23:36:19.038Z",
+        "updated_at": "2023-08-01T20:02:32.520Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "f1fa04e3-6f4f-4242-a095-b3bfef2ef574"
+      },
+      {
+        "id": "99e072f0-8356-437b-9010-25ac6734295c",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-01T12:37:25.523Z",
+        "updated_at": "2023-08-01T12:37:50.646Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "6211d8c6-dd79-46b9-871d-0054885c36b0"
+      },
+      {
+        "id": "409a50df-5d2b-4285-8bd1-889c5d948f44",
+        "role_name": "Analyst",
+        "created_at": "2023-08-01T13:07:32.742Z",
+        "updated_at": "2023-08-02T03:29:46.847Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "47fc09e4-126f-4d1a-9644-3290e061b97e"
+      }
+    ]
+  },
+  {
+    "cv_template": [
+      {
+        "id": "4393a9ff-96c1-4f23-b8af-7bffce8b2705",
+        "name": "Professional",
+        "content": "A well-structured CV template",
+        "created_at": "2023-08-02T06:17:22.384Z",
+        "updated_at": "2023-08-02T04:19:21.240Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "9c962e2d-219a-472a-9198-26d75cad6c5f",
+        "name": "Creative",
+        "content": "An eye-catching CV design",
+        "created_at": "2023-08-01T21:15:21.163Z",
+        "updated_at": "2023-08-01T19:27:37.968Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "d841602a-0809-4c31-b122-737cac28ac2f",
+        "name": "Modern",
+        "content": "A unique CV layout",
+        "created_at": "2023-08-01T21:14:06.569Z",
+        "updated_at": "2023-08-01T19:06:03.713Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "37437bb9-c927-4a04-967c-3d85465b4f6c",
+        "name": "Executive",
+        "content": "A professional CV format",
+        "created_at": "2023-08-01T18:06:42.092Z",
+        "updated_at": "2023-08-02T05:08:36.941Z",
+        "admin_id": "user_entity_pk"
+      },
+      {
+        "id": "becc3bc1-8e84-4b85-ad9e-8a4d4bd3786a",
+        "name": "Minimalist",
+        "content": "A minimalist CV template",
+        "created_at": "2023-08-01T18:24:37.668Z",
+        "updated_at": "2023-08-01T19:03:30.209Z",
+        "admin_id": "user_entity_pk"
+      }
+    ],
+    "role_template": [
+      {
+        "id": "4eb61347-f46a-495e-bdc8-324d47f77521",
+        "role_name": "Administrator",
+        "created_at": "2023-08-01T17:03:47.815Z",
+        "updated_at": "2023-08-02T10:48:17.587Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "37437bb9-c927-4a04-967c-3d85465b4f6c"
+      },
+      {
+        "id": "28fdb1e9-7600-4651-839e-ba6a8c695598",
+        "role_name": "Manager",
+        "created_at": "2023-08-01T21:31:57.198Z",
+        "updated_at": "2023-08-01T19:52:17.217Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9c962e2d-219a-472a-9198-26d75cad6c5f"
+      },
+      {
+        "id": "6e9bc245-2a39-4976-a1ce-eb88d97231a7",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-02T01:41:40.066Z",
+        "updated_at": "2023-08-01T22:00:07.821Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9c962e2d-219a-472a-9198-26d75cad6c5f"
+      },
+      {
+        "id": "5f8f7454-08d0-4d1b-9438-e5e0a1b71877",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-02T00:05:30.143Z",
+        "updated_at": "2023-08-02T04:21:47.911Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9c962e2d-219a-472a-9198-26d75cad6c5f"
+      },
+      {
+        "id": "975934a2-7d6a-45e8-8e1d-96b5eb90e30b",
+        "role_name": "Analyst",
+        "created_at": "2023-08-02T04:29:38.207Z",
+        "updated_at": "2023-08-02T01:41:54.271Z",
+        "admin_id": "user_entity_pk",
+        "template_id": "9c962e2d-219a-472a-9198-26d75cad6c5f"
+      }
+    ]
+  }
+]
